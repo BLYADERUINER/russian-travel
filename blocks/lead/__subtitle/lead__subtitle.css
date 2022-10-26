@@ -9,3 +9,18 @@
   margin: 16px auto 32px;
 }
 
+@media screen and (max-width: 1124px) {
+  .lead__subtitle {
+    margin-bottom: 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead__subtitle {
+    min-width: 288px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 8px auto 20px;
+  }
+}
+

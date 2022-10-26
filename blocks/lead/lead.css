@@ -5,3 +5,21 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media screen and (max-width: 1124px) {
+  .lead {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .lead {
+    min-width: 768px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .lead {
+    min-width: 320px;
+  }
+}
