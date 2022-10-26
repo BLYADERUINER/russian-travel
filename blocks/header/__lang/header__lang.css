@@ -9,7 +9,7 @@
   margin-right: 0px;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 568px) {
   .header__lang {
     width: 22px;
     height: 20px;
