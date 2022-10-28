@@ -1,0 +1,6 @@
+.places {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 984px;
+  display: grid;
+  grid-row-gap: 80px;
+}
