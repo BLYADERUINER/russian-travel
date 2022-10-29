@@ -5,7 +5,7 @@
   justify-content: center;
   color: #fff;
   text-decoration: none;
-  background-image: url('../../../images/cover/__background.jpg');
+  background-image: url("../../../images/cover/__background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -34,18 +34,18 @@
 }
 
 .cover__item::before {
-  content: '';
+  content: "";
   background: #2a2c2f;
-  opacity: .3;
+  opacity: 0.3;
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
   z-index: -1;
-  transition: .5s ;
+  transition: 0.5s;
 }
 
 .cover__item:hover::before {
-  opacity: .7;
+  opacity: 0.7;
 }
