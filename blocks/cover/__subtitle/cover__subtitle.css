@@ -5,6 +5,7 @@
   font-style: normal;
   line-height: 22px;
   text-align: center;
+  text-rendering: optimizeLegibility;
   margin: 16px 0 0;
 }
 
