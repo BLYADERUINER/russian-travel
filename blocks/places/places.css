@@ -4,3 +4,23 @@
   display: grid;
   grid-row-gap: 80px;
 }
+
+@media screen and (max-width: 1124px) {
+  .places {
+    min-width: 928px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .places {
+    grid-row-gap: 73px;
+    min-width: 720px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .places {
+    grid-row-gap: 50px;
+    min-width: 320px;
+  }
+}

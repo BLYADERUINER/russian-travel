@@ -4,3 +4,16 @@
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 984px) {
+  .place__website {
+    min-width: 352px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__website {
+    min-width: 288px;
+    margin: 0 16px;
+  }
+}

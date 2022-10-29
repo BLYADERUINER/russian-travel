@@ -3,4 +3,25 @@
   grid-template-columns: minmax(auto, 460px) minmax(auto, 484px);
   row-gap: 48px;
   column-gap: 40px;
+
+}
+
+@media screen and (max-width: 1124px) {
+  .place {
+    grid-template-columns: minmax(auto, 440px) minmax(auto, 456px);
+    column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .place{
+    grid-template-columns: minmax(auto, 330px) minmax(auto, 352px);
+    column-gap: 28px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place{
+    grid-template-columns: minmax(auto, 320px);
+  }
 }
