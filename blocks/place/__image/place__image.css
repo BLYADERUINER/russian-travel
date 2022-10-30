@@ -3,3 +3,9 @@
   box-sizing: border-box;
   object-fit: cover;
 }
+
+@media screen and (max-width: 568px) {
+  .place__image {
+    margin-bottom: 32px;
+  }
+}
