@@ -9,6 +9,16 @@
   margin: 0 auto 16px;
 }
 
+/* Это не по макету, но без этого перелома появляется вертикальный скролл
+ - из-за того что не помещается текст */
+@media screen and (max-width: 765px) {
+  .lead__title {
+    max-width: 600px;
+    font-size: 64px;
+    line-height: 60px;
+  }
+}
+
 @media screen and (max-width: 568px) {
   .lead__title {
     min-width: 288px;

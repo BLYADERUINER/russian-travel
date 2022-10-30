@@ -1,17 +1,8 @@
 .header__lang {
-  width: 30px;
-  height: 28px;
   margin-right: 18px;
   padding-bottom: 6px;
 }
 
 .header__lang:last-child {
   margin-right: 0px;
-}
-
-@media screen and (max-width: 568px) {
-  .header__lang {
-    width: 22px;
-    height: 20px;
-  }
 }

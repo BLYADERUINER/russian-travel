@@ -11,6 +11,7 @@
 
 .place__paragraph:last-child {
   margin-bottom: 0px;
+  margin-top: 0px;
 }
 
 @media screen and (max-width: 984px) {
@@ -22,6 +23,6 @@
 
 @media screen and (max-width: 568px) {
   .place__paragraph {
-    margin: 0 16px 25px;
+    margin: 32px 16px 25px;
   }
 }
